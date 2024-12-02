@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speedline Internet</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/feather-icons/dist/feather.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i data-feather="zap" class="icon-orange"></i>
+                    <span>Speedline</span>
+                </div>
+                <nav class="nav-desktop">
+                    <a href="#plans">Planos</a>
+                    <a href="#about">Sobre Nós</a>
+                    <a href="#contact">Contato</a>
+                </nav>
+                <button class="menu-mobile" onclick="toggleMenu()">
+                    <i data-feather="menu"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Internet Rápida e Estável</h1>
+                        <p>Conecte-se ao futuro com fibra óptica de alta velocidade</p>
+                        <a href="#plans" class="button">Veja Nossos Planos</a>
+                    </div>
+                    <div class="hero-image">
+                        <i data-feather="rocket" class="icon-large"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="wave">
+                <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
+                </svg>
+            </div>
+        </section>
+
+        <section id="plans" class="plans">
+            <div class="container">
+                <h2>Nossos Planos</h2>
+                <div class="plans-grid">
+                    <div class="plan-card">
+                        <i data-feather="wifi" class="icon-orange"></i>
+                        <h3>Básico</h3>
+                        <div class="speed">100MB</div>
+                        <p>Navegação básica</p>
+                        <div class="price">R$ 89,90</div>
+                        <ul>
+                            <li><i data-feather="check" class="icon-small"></i>Ideal para navegação</li>
+                            <li><i data-feather="check" class="icon-small"></i>Redes sociais</li>
+                            <li><i data-feather="check" class="icon-small"></i>E-mails</li>
+                        </ul>
+                        <button class="button button-outline">Contratar</button>
+                    </div>
+                    <div class="plan-card">
+                        <i data-feather="video" class="icon-orange"></i>
+                        <h3>Plus</h3>
+                        <div class="speed">150MB</div>
+                        <p>Ideal para streaming e jogos</p>
+                        <div class="price">R$ 119,90</div>
+                        <ul>
+                            <li><i data-feather="check" class="icon-small"></i>Streaming em HD</li>
+                            <li><i data-feather="check" class="icon-small"></i>Jogos online</li>
+                            <li><i data-feather="check" class="icon-small"></i>Home office</li>
+                        </ul>
+                        <button class="button button-outline">Contratar</button>
+                    </div>
+                    <div class="plan-card">
+                        <i data-feather="users" class="icon-orange"></i>
+                        <h3>Ultra</h3>
+                        <div class="speed">300MB</div>
+                        <p>Ultra velocidade para toda a família</p>
+                        <div class="price">R$ 159,90</div>
+                        <ul>
+                            <li><i data-feather="check" class="icon-small"></i>Streaming em 4K</li>
+                            <li><i data-feather="check" class="icon-small"></i>Downloads rápidos</li>
+                            <li><i data-feather="check" class="icon-small"></i>Múltiplos dispositivos</li>
+                        </ul>
+                        <button class="button button-outline">Contratar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 Speedline Internet - Gameleiras, MG</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="script.js"></script>
+</body>
+</html>
